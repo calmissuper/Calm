@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cloudRegistry
+	xmlns="http://www.xframium.org/cloudRegistry"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.xframium.org/cloudRegistry http://www.xframium.org/xsd/deviceManagement/cloudRegistry.xsd">
+	<cloud name="local" userName="" password=""
+		hostName="127.0.0.1:4444" proxyHost="" providerType="SELENIUM" />
+	<!-- <cloud name="local" userName="" password="" hostName="192.168.1.102:5555" 
+		proxyHost="" providerType="SELENIUM"/> -->
+
+	<!-- <cloud name="local" hostName="ondemand.saucelabs.com:80" userName="manjuu" 
+		password="8c291b70-1cd5-4558-a7e1-28a7c2b00927" providerType="SAUCELABS" 
+		/> -->
+
+	<!-- <cloud name="local" hostName="hub-cloud.browserstack.com" userName="manju86" 
+		password="Lz2oBy7QgcxQHqoms7UD" providerType="BROWSERSTACK" /> -->
+
+
+</cloudRegistry>

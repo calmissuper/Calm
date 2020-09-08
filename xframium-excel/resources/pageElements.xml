@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementDefinition xmlns="http://www.xframium.org/pageRegistry"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.xframium.org/pageRegistry http://www.xframium.org/xsd/pageManagement/pageRegistry.xsd">
+	<site name="BigB">
+		<page name="Login">
+			<element name="btn_Login" descriptor="XPATH" value="//a[@qa ='loginLink' and @ng-show='vm.newLoginFlow']" />
+			<element name="btn_gmail" descriptor="XPATH" value="//div[@class='login-main-content']//a[@class='gplusBtn smGlobalBtn']"/>
+			<element name="txt_username" descriptor="XPATH" value="//input[@type='email']" />
+			<element name="txt_password" descriptor="XPATH" value="//input[@type='password']" />
+			<element name="btn_Next" descriptor="XPATH" value="//span[text()='Next']" />
+			<element name="Label_Logout" descriptor="XPATH" value="//span[text()='Abhishek']"/>
+			<element name="btn_Logout" descriptor="XPATH" value="//a[text()='Logout']"/>
+			<element name="label_User" descriptor="XPATH" value="//span[text()='{tkn_UserName}']"/>
+		</page>
+		
+		<page name="Search">
+			<element name="txt_searchBox" descriptor="XPATH" value="//input[@qa='searchBar']" />
+			<element name="btn_searchBox" descriptor="XPATH" value="//button[@qa='searchBtn']" />
+		</page>
+		
+		<page name="Address">
+			<element name="label_User" descriptor="XPATH" value="//span[text()='Abhishek']" />
+			<element name="btn_MyAccount" descriptor="XPATH" value="//a[@qa='myAccountLink']"/>
+			<element name="Navi_DeliveryAddress" descriptor="XPATH" value="//a[text()='MY ACCOUNT']/following-sibling::ul/li[1]//a[text()='- Delivery Addresses']"/>
+			<element name="Section_DeliveryAddress" descriptor="XPATH" value="//div[text()='Delivery Addresses']" />
+			<element name="btn_AddNewAddress" descriptor="XPATH" value="//div[@qa='addAddress']" />
+			<element name="Section_AddAddress" descriptor="XPATH" value="//div[text()='Address']" />
+			<element name="txt_firstName" descriptor="XPATH" value="//input[@name='firstname']" />
+			<element name="txt_lastName" descriptor="XPATH" value="//input[@name='lastname']" />
+			<element name="txt_mobileNumber" descriptor="XPATH" value="//label[text()='Mobile Number']/../input" />
+			<element name="txt_houseNo" descriptor="XPATH" value="//input[@name='house']" />
+			<element name="txt_City" descriptor="XPATH" value="//div[@class='_27muW']/div[text()='Mysore']" />
+			<element name="txt_area" descriptor="XPATH" value="//input[@name='area']" />
+			<element name="txt_pin" descriptor="XPATH" value="//input[@name='pin']" />
+			<element name="btn_add" descriptor="XPATH" value="//div[@qa='addOrUpdateAddress']" />
+			<element name="btn_confirmLocation" descriptor="XPATH" value="//div[@qa='locationConfirmation']/../div[@class='_2rLth']" />
+			<element name="label_addedAddress" descriptor="XPATH" value="//div[@class='cDPZl']/div[text()='{tkn_address}']"/>
+			<element name="btn_editAddress" descriptor="XPATH" value="//div[@class='cDPZl']/div[text()='{tkn_address}']/../..//*[@qa='editIcon']"/>
+			<element name="Section_EditAddress" descriptor="XPATH" value="//div[text()='Address']" />
+			<element name="btn_edit" descriptor="XPATH" value="//div[@qa='addOrUpdateAddress']" />
+			<element name="label_editedAddress" descriptor="XPATH" value="//div[@class='cDPZl']/div[contains(text(),'{tkn_address}')]"/>
+			<element name="btn_deleteAddress" descriptor="XPATH" value="//div[@class='cDPZl']/div[text()='{tkn_address}']/../..//*[@qa='deleteIcon']"/>
+			<element name="btn_deleteConfirm" descriptor="XPATH" value="//div[text()='YES']"/>
+			<element name="btn_deleteCancel" descriptor="XPATH" value="//div[text()='NO']"/>
+			
+			
+			
+		</page>
+		
+	</site>
+</elementDefinition>

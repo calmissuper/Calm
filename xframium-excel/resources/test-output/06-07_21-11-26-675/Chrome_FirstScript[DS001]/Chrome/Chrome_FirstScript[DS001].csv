@@ -1,0 +1,8 @@
+null,Chrome,OS X,null,Login,btn_Login,click,06-07_21-11-51,899,SUCCESS,
+null,Chrome,OS X,null,Login,btn_gmail,click,06-07_21-11-55,394,SUCCESS,
+null,Chrome,OS X,null,Login,txt_username,setValue,06-07_21-11-59,773,SUCCESS,
+null,Chrome,OS X,null,Login,btn_Next,click,06-07_21-12-00,279,SUCCESS,
+null,Chrome,OS X,null,Login,txt_password,setValue,06-07_21-12-05,360,SUCCESS,
+null,Chrome,OS X,null,Login,btn_Next,click,06-07_21-12-05,191,SUCCESS,
+null,Chrome,OS X,null,,,<a href="null\DS001_2020.06.07.21.12.25.docx">Click here to view screenprints</a>,06-07_21-12-25,0,REPORT,
+null,Chrome,OS X,null,,,errMessage,06-07_21-12-25,0,FAILURE,

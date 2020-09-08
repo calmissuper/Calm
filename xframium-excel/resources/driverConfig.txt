@@ -1,0 +1,82 @@
+#
+# Cloud Registry
+#
+cloudRegistry.provider=XML
+cloudRegistry.fileName=../resources/cloudRegistry.xml
+cloudRegistry.cloudUnderTest=local
+
+
+#cloudRegistry.cloudUnderTest=MyLocal
+
+#
+# Application Registry
+#
+applicationRegistry.provider=XML
+applicationRegistry.fileName=../resources/applicationRegistry.xml
+applicationRegistry.applicationUnderTest=BigB
+
+#
+# Device Management
+#
+deviceManagement.provider=XML
+deviceManagement.driverType=WEB
+deviceManagement.fileName=../resources/deviceRegistry.xml
+
+# Artifact Production
+# 
+artifactProducer.provider=Perfecto
+artifactProducer.parentFolder=test-output
+artifactProducer.automated=EXECUTION_REPORT_HTML,FAILURE_SOURCE,CONSOLE_LOG,WCAG_REPORT,EXECUTION_RECORD_CSV,EXECUTION_RECORD_HTML,REPORTIUM,SAUCE_LABS
+
+
+
+#
+# Page Object Configuration
+#
+pageManagement.siteName=BigB
+pageManagement.provider=XML
+pageManagement.fileName=../resources/pageElements.xml
+#pageManagement.query=SELECT PS.NAME,PP.NAME,PE.NAME, PE.DESCRIPTOR, PE.VALUE, PE.CONTEXT_NAME FROM mlq_new.SITES PS INNER JOIN mlq_new.PAGES PP ON PP.SITE_NAME = PS.NAME INNER JOIN mlq_new.ELEMENTS PE ON PE.PAGE_NAME = PP.NAME ORDER BY PS.NAME, PP.NAME
+#pageManagement.query=SELECT PS.NAME,PP.NAME,PE.NAME, PE.DESCRIPTOR, PE.VALUE, PE.CONTEXT_NAME FROM SITES PS INNER JOIN PAGES PP ON PP.SITE_NAME = PS.NAME INNER JOIN ELEMENTS PE ON PE.PAGE_NAME = PP.NAME ORDER BY PS.NAME, PP.NAME
+
+# Config for implicit waits
+driver.propertyAdapters=org.xframium.device.property.SeleniumPropertyAdapter
+selenium.timeouts.implicitWait=45000
+selenium.timeouts.pageLoad=450000
+selenium.timeouts.setScript=45000
+
+
+
+#testset.path=jdbc:ucanaccess://resources//TestSet.accdb
+testset.path=resources//TestSet.xlsx
+pr.url=jdbc:ucanaccess://resources//PageRepository.accdb
+
+#screenshot.path= \\Users\\manjunathda\\Desktop\\results\\screenshots
+data.path=resources//TestData.xlsx
+report.pdf=No
+W
+#result.xlsx=resources\\TestSet.xlsx
+
+#htmlresult.path=\\Users\\manjunathda\\Desktop\\results\\html
+
+
+
+#qtest parameters
+qtest.updatetestset=no
+qtest.updateresults=no
+qtest.updateenv=no
+qtest.endpoint=https://everest.qtestnet.com
+qtest.url=https://everest.qtestnet.com
+qtest.projectid=
+qtest.testcycle=
+qtest.testsuite=
+
+
+# below fields are used only for CI/CD execution
+qtest.ci=no
+ci.noofnodes=2
+qtest.testsuite.dev=TS-1 Dev Test Suite
+qtest.testsuite.qa=TS-13 QA Test Suite
+qtest.testsuite.stage=TS-4 Stage Test Suite
+
+

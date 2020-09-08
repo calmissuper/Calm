@@ -1,0 +1,20 @@
+Jun 22, 2020 9:11:27 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [8000] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-22_21-06-07-480/Chrome_ThirdScript[DS003]/Chrome/console.txt]
+Jun 22, 2020 9:11:27 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [8000] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-22_21-06-07-480/Chrome_ThirdScript[DS003]/Chrome/console.txt]
+Jun 22, 2020 9:11:27 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [515] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-22_21-06-07-480/Chrome_ThirdScript[DS003]/Chrome/wcag.html]
+Jun 22, 2020 9:11:27 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [515] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-22_21-06-07-480/Chrome_ThirdScript[DS003]/Chrome/wcag.html]
+Jun 22, 2020 9:11:27 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [289] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-22_21-06-07-480/Chrome_ThirdScript[DS003]/Chrome/Chrome_ThirdScript[DS003].csv]
+Jun 22, 2020 9:11:27 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [289] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-22_21-06-07-480/Chrome_ThirdScript[DS003]/Chrome/Chrome_ThirdScript[DS003].csv]
+Jun 22, 2020 9:11:27 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [31615] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-22_21-06-07-480/Chrome_ThirdScript[DS003]/Chrome/Chrome_ThirdScript[DS003].html]
+Jun 22, 2020 9:11:27 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [31615] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-22_21-06-07-480/Chrome_ThirdScript[DS003]/Chrome/Chrome_ThirdScript[DS003].html]
+Jun 22, 2020 9:11:29 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [1428988] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-22_21-06-07-480/Chrome_ThirdScript[DS003]/Chrome/failureDOM.xml]
+Jun 22, 2020 9:11:29 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [1428988] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-22_21-06-07-480/Chrome_ThirdScript[DS003]/Chrome/failureDOM.xml]

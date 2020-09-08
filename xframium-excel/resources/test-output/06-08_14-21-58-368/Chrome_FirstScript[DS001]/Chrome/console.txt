@@ -1,0 +1,20 @@
+Jun 08, 2020 2:22:30 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [10338] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-08_14-21-58-368/Chrome_FirstScript[DS001]/Chrome/console.txt]
+Jun 08, 2020 2:22:30 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [10338] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-08_14-21-58-368/Chrome_FirstScript[DS001]/Chrome/console.txt]
+Jun 08, 2020 2:22:30 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [515] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-08_14-21-58-368/Chrome_FirstScript[DS001]/Chrome/wcag.html]
+Jun 08, 2020 2:22:30 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [515] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-08_14-21-58-368/Chrome_FirstScript[DS001]/Chrome/wcag.html]
+Jun 08, 2020 2:22:30 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [359] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-08_14-21-58-368/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].csv]
+Jun 08, 2020 2:22:30 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [359] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-08_14-21-58-368/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].csv]
+Jun 08, 2020 2:22:30 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [8598] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-08_14-21-58-368/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].html]
+Jun 08, 2020 2:22:30 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [8598] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-08_14-21-58-368/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].html]
+Jun 08, 2020 2:22:33 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [1394734] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-08_14-21-58-368/Chrome_FirstScript[DS001]/Chrome/failureDOM.xml]
+Jun 08, 2020 2:22:33 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [1394734] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-08_14-21-58-368/Chrome_FirstScript[DS001]/Chrome/failureDOM.xml]

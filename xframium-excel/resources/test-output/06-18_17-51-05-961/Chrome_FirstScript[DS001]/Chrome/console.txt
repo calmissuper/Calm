@@ -1,0 +1,16 @@
+Jun 18, 2020 5:51:59 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [13914] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-18_17-51-05-961/Chrome_FirstScript[DS001]/Chrome/console.txt]
+Jun 18, 2020 5:51:59 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [13914] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-18_17-51-05-961/Chrome_FirstScript[DS001]/Chrome/console.txt]
+Jun 18, 2020 5:51:59 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [515] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-18_17-51-05-961/Chrome_FirstScript[DS001]/Chrome/wcag.html]
+Jun 18, 2020 5:51:59 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [515] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-18_17-51-05-961/Chrome_FirstScript[DS001]/Chrome/wcag.html]
+Jun 18, 2020 5:51:59 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [441] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-18_17-51-05-961/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].csv]
+Jun 18, 2020 5:51:59 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [441] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-18_17-51-05-961/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].csv]
+Jun 18, 2020 5:51:59 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [5742] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-18_17-51-05-961/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].html]
+Jun 18, 2020 5:51:59 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [5742] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/06-18_17-51-05-961/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].html]

@@ -1,0 +1,192 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.xframium</groupId>
+	<artifactId>xframium-testing-java</artifactId>
+	<version>0.0.5</version>
+	<packaging>jar</packaging>
+	<repositories>
+		<repository>
+			<id>xFramium</id>
+			<name>xFramium</name>
+			<url>http://www.xframium.org/repository</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>never</updatePolicy>
+			</snapshots>
+		</repository>
+		 <repository>
+      <id>jenkins-releases</id>
+      <url>http://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <repository>
+      <id>perfectomobile</id>
+      <name>Perfecto mobile</name>
+      <url>https://repo1.perfectomobile.com/public/repositories/maven/com/perfectomobile/intellij-connector/9.0.0.0/</url>
+    </repository>
+  </repositories>
+  <distributionManagement>
+    <repository>
+      <id>xFramium FTP</id>
+      <name>xFramium Repository</name>
+      <url>http://www.xframium.org</url>
+    </repository>
+  </distributionManagement>
+  
+ <build>
+	<directory>target</directory> 
+ <outputDirectory>test-output/target/classes</outputDirectory> 
+  <testOutputDirectory>target/classes</testOutputDirectory>
+ <sourceDirectory>src</sourceDirectory>  
+ <testSourceDirectory>test</testSourceDirectory>
+ <testResources>
+  <testResource>
+  <directory>resources</directory>
+  </testResource>
+  </testResources>
+
+ <plugins>	
+	<plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.6.0.1398</version>
+      </plugin>
+	
+	<plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.6.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+				
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.16</version>
+				 <configuration>
+		<systemPropertyVariable>
+		 <config>${ConfigFile}</config>
+		 </systemPropertyVariable>
+		 <testFailureIgnore>false</testFailureIgnore>
+		 <additionalClasspathElements>
+		 <additionalClasspathElement>src</additionalClasspathElement>
+		 </additionalClasspathElements>
+		 <suiteXmlFiles>
+		 <suiteXmlFile>testng.xml</suiteXmlFile>
+		 </suiteXmlFiles>
+		  </configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+			</plugin>
+			 <plugin>
+        		<groupId>org.apache.maven.plugins</groupId>
+        		<artifactId>maven-source-plugin</artifactId>
+        		<version>3.0.1</version>
+       			<executions>
+          		<execution>
+            		<id>attach-sources</id>
+            		<goals>
+              		<goal>jar</goal>
+            		</goals>
+          		</execution>
+        		</executions>
+      		</plugin>
+		</plugins>
+</build>
+	<dependencies>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.14.3</version>
+    </dependency>
+		<dependency>
+			<groupId>org.xframium</groupId>
+			<artifactId>xframium-java</artifactId>
+			<version>1.0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xframium</groupId>
+			<artifactId>xframium-driver</artifactId>
+			<version>1.0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.6</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.ucanaccess</groupId>
+			<artifactId>ucanaccess</artifactId>
+			<version>3.0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.itextpdf.tool</groupId>
+			<artifactId>xmlworker</artifactId>
+			<version>5.4.1</version>
+		</dependency>
+		<dependency>
+			<groupId>au.com.bytecode</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>2.4</version>
+		</dependency>
+		
+		<!-- <dependency> <groupId>com.microsoft.sqlserver</groupId> <artifactId>sqljdbc4</artifactId> 
+			<version>4.0</version> </dependency> -->
+		<!-- https://mvnrepository.com/artifact/com.github.2gis.winium/winium-webdriver -->
+		<!-- <dependency> <groupId>com.github.2gis.winium</groupId> <artifactId>winium-webdriver</artifactId> 
+			<version>0.1.0-1</version> </dependency> -->
+		<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi -->
+		<dependency>
+			<groupId>com.sikulix</groupId>
+			<artifactId>sikulixapi</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+	<dependency>
+		<groupId>com.jayway.restassured</groupId>
+		<artifactId>rest-assured</artifactId>
+		<version>2.9.0</version>
+	  </dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.1</version>
+		</dependency>
+		
+		<dependency>
+                  <groupId>com.aventstack</groupId>
+                  <artifactId>extentreports</artifactId>
+                  <version>3.0.6</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.auxilii.msgparser/msgparser -->
+     <dependency>
+    	<groupId>com.auxilii.msgparser</groupId>
+    	<artifactId>msgparser</artifactId>
+    	<version>1.1.15</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+	<dependency>
+    	<groupId>org.apache.poi</groupId>
+    	<artifactId>poi</artifactId>
+    	<version>3.11</version>
+	</dependency>  
+	<dependency>
+    <groupId>com.qasymphony.qtest</groupId>
+    <artifactId>qtest-sdk-java</artifactId>
+    <version>1.4.3</version>
+</dependency>    
+
+	</dependencies>
+	
+</project>

@@ -1,0 +1,4 @@
+null,Chrome,OS X,null,Login,btn_Login,click,06-22_20-58-09,298,SUCCESS,
+null,Chrome,OS X,null,Login,btn_gmail,click,06-22_20-58-10,128,SUCCESS,
+null,Chrome,OS X,null,Login,txt_username,setValue,06-22_20-59-47,92403,FAILURE,
+null,Chrome,OS X,null,,,errMessage,06-22_20-59-47,0,FAILURE,

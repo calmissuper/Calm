@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deviceRegistry
+	xsi:schemaLocation="http://www.xframium.org/deviceRegistry http://www.xframium.org/xsd/deviceManagement/deviceRegistry.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.xframium.org/deviceRegistry">
+
+	<device name="Chrome" os="OS X" browserName="Chrome" model="Chrome" browserVersion="54.0" availableDevices="1" active="true"/>
+	 <capability name="arguments" class="STRING">--headless</capability>
+	<capability class="CLASS" name="ChromeCapabilitiesBridge">utility.ChromeCapabilitiesBridge</capability>
+	<device name="Firefox" os="MAC" browserName="firefox" model="Firefox" manufacturer="Mozilla" availableDevices="1"
+	
+		active="false" />
+
+</deviceRegistry>

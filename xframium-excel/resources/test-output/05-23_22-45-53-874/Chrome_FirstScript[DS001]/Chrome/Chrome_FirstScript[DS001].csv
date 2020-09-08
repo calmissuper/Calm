@@ -1,0 +1,4 @@
+null,Chrome,OS X,null,,,Open Application URL : https://www.bigbasket.com/,05-23_22-46-07,0,REPORT,
+null,Chrome,OS X,null,Login,btn_Login,click,05-23_22-46-15,6079,SUCCESS,
+null,Chrome,OS X,null,Login,btn_gmail,click,05-23_22-46-18,3033,SUCCESS,
+null,Chrome,OS X,null,,,errMessage,05-23_22-46-19,0,FAILURE,

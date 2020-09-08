@@ -1,0 +1,7 @@
+null,Chrome,OS X,null,Login,btn_Login,click,06-18_15-52-49,504,SUCCESS,
+null,Chrome,OS X,null,Login,btn_gmail,click,06-18_15-52-51,372,SUCCESS,
+null,Chrome,OS X,null,Login,btn_Next,click,06-18_15-52-57,166,SUCCESS,
+null,Chrome,OS X,null,Login,btn_Next,click,06-18_15-52-59,232,SUCCESS,
+null,Chrome,OS X,null,Login,label_User,visible,06-18_15-53-17,54,SUCCESS,
+null,Chrome,OS X,null,Orders,null,click,06-18_15-53-19,6,FAILURE,
+null,Chrome,OS X,null,,,errMessage,06-18_15-53-19,0,FAILURE,

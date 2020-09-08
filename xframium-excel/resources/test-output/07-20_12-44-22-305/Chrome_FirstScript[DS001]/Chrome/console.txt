@@ -1,0 +1,16 @@
+Jul 20, 2019 12:44:56 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [14886] bytes to [/Users/manjunathda/git/xframium-excel/xframium-excel/resources/test-output/07-20_12-44-22-305/Chrome_FirstScript[DS001]/Chrome/console.txt]
+Jul 20, 2019 12:44:56 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [14886] bytes to [/Users/manjunathda/git/xframium-excel/xframium-excel/resources/test-output/07-20_12-44-22-305/Chrome_FirstScript[DS001]/Chrome/console.txt]
+Jul 20, 2019 12:44:56 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [515] bytes to [/Users/manjunathda/git/xframium-excel/xframium-excel/resources/test-output/07-20_12-44-22-305/Chrome_FirstScript[DS001]/Chrome/wcag.html]
+Jul 20, 2019 12:44:56 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [515] bytes to [/Users/manjunathda/git/xframium-excel/xframium-excel/resources/test-output/07-20_12-44-22-305/Chrome_FirstScript[DS001]/Chrome/wcag.html]
+Jul 20, 2019 12:44:56 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [850] bytes to [/Users/manjunathda/git/xframium-excel/xframium-excel/resources/test-output/07-20_12-44-22-305/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].csv]
+Jul 20, 2019 12:44:56 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [850] bytes to [/Users/manjunathda/git/xframium-excel/xframium-excel/resources/test-output/07-20_12-44-22-305/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].csv]
+Jul 20, 2019 12:44:56 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [6987] bytes to [/Users/manjunathda/git/xframium-excel/xframium-excel/resources/test-output/07-20_12-44-22-305/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].html]
+Jul 20, 2019 12:44:56 PM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [6987] bytes to [/Users/manjunathda/git/xframium-excel/xframium-excel/resources/test-output/07-20_12-44-22-305/Chrome_FirstScript[DS001]/Chrome/Chrome_FirstScript[DS001].html]
