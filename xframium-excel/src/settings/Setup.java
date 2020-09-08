@@ -21,7 +21,8 @@ public class Setup  extends AbstractSeleniumTest{
 	public Setup()  {
 		log.info("Setup started..");
 		
-		String directory = System.getProperty("User.dir");
+		String directory = System.getProperty("user.dir");
+		System.out.println(directory);
 		File configFile = new File(directory+"/resources/driverConfig.txt");
 		if (!configFile.exists()) {
 			System.err.println("[" + configFile.getAbsolutePath() + "] could not be located");
