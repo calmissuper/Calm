@@ -34,70 +34,75 @@
   </distributionManagement>
   
  <build>
-	<directory>target</directory> 
+ <directory>target</directory> 
  <outputDirectory>test-output/target/classes</outputDirectory> 
-  <testOutputDirectory>target/classes</testOutputDirectory>
+ <testOutputDirectory>target/classes</testOutputDirectory>
  <sourceDirectory>src</sourceDirectory>  
  <testSourceDirectory>test</testSourceDirectory>
  <testResources>
-  <testResource>
-  <directory>resources</directory>
-  </testResource>
-  </testResources>
-
+ <testResource>
+ <directory>resources</directory>
+ </testResource>
+ </testResources>
  <plugins>	
 	<plugin>
-        <groupId>org.sonarsource.scanner.maven</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.6.0.1398</version>
-      </plugin>
-	
-	<plugin>
 		<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.0</version>
+		<artifactId>maven-compiler-plugin</artifactId>
+		<version>3.6.0</version>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-				</configuration>
-				
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.16</version>
+				</configuration>	
+	</plugin>
+	<plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-surefire-plugin</artifactId>
+		<version>2.16</version>
 				 <configuration>
-		<systemPropertyVariable>
-		 <config>${ConfigFile}</config>
-		 </systemPropertyVariable>
-		 <testFailureIgnore>false</testFailureIgnore>
-		 <additionalClasspathElements>
-		 <additionalClasspathElement>src</additionalClasspathElement>
-		 </additionalClasspathElements>
-		 <suiteXmlFiles>
-		 <suiteXmlFile>testng.xml</suiteXmlFile>
-		 </suiteXmlFiles>
-		  </configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.4</version>
-			</plugin>
-			 <plugin>
-        		<groupId>org.apache.maven.plugins</groupId>
-        		<artifactId>maven-source-plugin</artifactId>
-        		<version>3.0.1</version>
-       			<executions>
+					<systemPropertyVariable>
+					 <config>${ConfigFile}</config>
+					 </systemPropertyVariable>
+					 <testFailureIgnore>false</testFailureIgnore>
+					 <additionalClasspathElements>
+					 <additionalClasspathElement>src</additionalClasspathElement>
+					 </additionalClasspathElements>
+					 <suiteXmlFiles>
+					 <suiteXmlFile>testng.xml</suiteXmlFile>
+					 </suiteXmlFiles>
+				  </configuration>
+	</plugin>
+	<plugin>
+		<groupId>org.apache.maven.plugins</groupId>	
+		<artifactId>maven-jar-plugin</artifactId>
+		<version>2.4</version>
+	</plugin>
+	<plugin>
+   		<groupId>org.apache.maven.plugins</groupId>
+       	<artifactId>maven-source-plugin</artifactId>
+    	<version>3.0.1</version>
+       		<executions>
           		<execution>
             		<id>attach-sources</id>
             		<goals>
               		<goal>jar</goal>
             		</goals>
           		</execution>
-        		</executions>
-      		</plugin>
-		</plugins>
+        	</executions>
+    </plugin>
+    <plugin>
+      <artifactId>maven-assembly-plugin</artifactId>
+      <configuration>
+        <archive>
+          <manifest>
+            <mainClass>fully.qualified.MainClass</mainClass>
+          </manifest>
+        </archive>
+        <descriptorRefs>
+          <descriptorRef>jar-with-dependencies</descriptorRef>
+        </descriptorRefs>
+      </configuration>
+    </plugin>
+</plugins>
 </build>
 	<dependencies>
 		<dependency>
