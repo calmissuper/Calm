@@ -83,6 +83,7 @@ public class LoginImpl extends CustomAbstractPage implements Login
 	    		    }
 	    	func._waitForPageToLoad(getWebDriver(), 100L);	
 	    	_setValue(getElement(txt_username), "manjuunothda@gmail.com");
+	    	Thread.sleep(5000);
 	    	func._click(getElement(btn_Next));
 	    	Thread.sleep(5000);
 	    	_setValue(getElement(txt_password), "crazylife8.");
