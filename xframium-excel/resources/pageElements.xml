@@ -8,7 +8,7 @@
 			<element name="btn_gmail" descriptor="XPATH" value="//div[@class='login-main-content']//a[@class='gplusBtn smGlobalBtn']"/>
 			<element name="txt_username" descriptor="XPATH" value="//input[@type='email']" />
 			<element name="txt_password" descriptor="XPATH" value="//input[@type='password']" />
-			<element name="btn_Next" descriptor="XPATH" value="//span[text()='Next']" />
+			<element name="btn_Next" descriptor="XPATH" value="//span[contains(text(),'Next')]" />
 			<element name="Label_Logout" descriptor="XPATH" value="//span[text()='Abhishek']"/>
 			<element name="btn_Logout" descriptor="XPATH" value="//a[text()='Logout']"/>
 			<element name="label_User" descriptor="XPATH" value="//span[text()='{tkn_UserName}']"/>
