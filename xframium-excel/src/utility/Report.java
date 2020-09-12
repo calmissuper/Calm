@@ -26,14 +26,16 @@ private static Report singleton=new Report();
 	public static ExtentTest logger;
 	public static File htmlfile;
 	private static String reqReport = "";
+	static LocalDateTime nowdate = LocalDateTime.now();
+	static DateTimeFormatter dateformat = DateTimeFormatter.ofPattern("ddMMYYYY_HHmmss");
+	public static String date_time = dateformat.format(nowdate);
 
 	public void log(String testname, String strOperation, String message) {
 		try {
 			switch (strOperation.toUpperCase()) {
 			case "CREATE":
-				DateTimeFormatter dateformat = DateTimeFormatter.ofPattern("ddMMYYYY_HHmmss");
-				LocalDateTime nowdate = LocalDateTime.now();
-				String date_time = dateformat.format(nowdate);
+				
+				
 				htmlfile = new File(System.getProperty("user.dir") + "//ExtReports//TestReport_" + date_time + ".html");
 				htmlfile.createNewFile();
 				htmlReporter = new ExtentHtmlReporter(htmlfile.getAbsolutePath());
