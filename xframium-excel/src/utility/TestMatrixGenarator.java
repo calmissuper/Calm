@@ -79,11 +79,14 @@ public class TestMatrixGenarator {
 			System.out.println(directory.getAbsolutePath());
 			String strDirectoryPath =directory.getAbsolutePath().split("\\.") [0];
 			String strFilePath=url;
-						
+			
+			String directory1 = System.getProperty("user.dir");
+			
+			
 			if (url.contains("resources")) {
 				strFilePath=strDirectoryPath+url;
-
-				strFilePath= "/Users/manjunathda/.jenkins/workspace/BIGB_GIT/xframium-excel/resources/TestSet.xlsx";
+				strFilePath = directory1+"/resources/TestSet.xlsx";
+			//	strFilePath= "/Users/manjunathda/.jenkins/workspace/BIGB_GIT/xframium-excel/resources/TestSet.xlsx";
 			}
 			
 			FileInputStream file = new FileInputStream(new File(strFilePath));
