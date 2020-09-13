@@ -1,0 +1,20 @@
+Sep 13, 2020 11:07:56 AM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [10140] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/09-13_11-06-51-913/Chrome_SecondScript[DS002]/Chrome/console.txt]
+Sep 13, 2020 11:07:56 AM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [10140] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/09-13_11-06-51-913/Chrome_SecondScript[DS002]/Chrome/console.txt]
+Sep 13, 2020 11:07:56 AM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [516] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/09-13_11-06-51-913/Chrome_SecondScript[DS002]/Chrome/wcag.html]
+Sep 13, 2020 11:07:56 AM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [516] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/09-13_11-06-51-913/Chrome_SecondScript[DS002]/Chrome/wcag.html]
+Sep 13, 2020 11:07:56 AM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [298] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/09-13_11-06-51-913/Chrome_SecondScript[DS002]/Chrome/Chrome_SecondScript[DS002].csv]
+Sep 13, 2020 11:07:56 AM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [298] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/09-13_11-06-51-913/Chrome_SecondScript[DS002]/Chrome/Chrome_SecondScript[DS002].csv]
+Sep 13, 2020 11:07:56 AM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [11650] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/09-13_11-06-51-913/Chrome_SecondScript[DS002]/Chrome/Chrome_SecondScript[DS002].html]
+Sep 13, 2020 11:07:56 AM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [11650] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/09-13_11-06-51-913/Chrome_SecondScript[DS002]/Chrome/Chrome_SecondScript[DS002].html]
+Sep 13, 2020 11:07:57 AM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [1475693] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/09-13_11-06-51-913/Chrome_SecondScript[DS002]/Chrome/failureDOM.xml]
+Sep 13, 2020 11:07:57 AM org.xframium.device.artifact.Artifact writeToDisk
+INFO: Attempting to write [1475693] bytes to [/Users/manjunathda/git/Calm/xframium-excel/resources/test-output/09-13_11-06-51-913/Chrome_SecondScript[DS002]/Chrome/failureDOM.xml]

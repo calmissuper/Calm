@@ -4,12 +4,18 @@ import java.io.File;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.xframium.device.DeviceManager;
+import org.xframium.device.factory.DeviceWebDriver;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-public class Report 
+public class Report  extends CustomAbstractPage
 {
 private static Report singleton=new Report();
 	
@@ -19,28 +25,25 @@ private static Report singleton=new Report();
 	}
 	
 	private Report(){}
-	
-	
-	public static ExtentHtmlReporter htmlReporter;
-	public static ExtentReports report;
+
+	public static ExtentReports report = new ExtentReports();
 	public static ExtentTest logger;
-	public static File htmlfile;
 	private static String reqReport = "";
 	static LocalDateTime nowdate = LocalDateTime.now();
 	static DateTimeFormatter dateformat = DateTimeFormatter.ofPattern("ddMMYYYY_HHmmss");
 	public static String date_time = dateformat.format(nowdate);
+	public static File htmlfile = new File(System.getProperty("user.dir") + "//ExtReports//TestReport_" + date_time + ".html");
+	public static ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(htmlfile.getAbsolutePath());
 
-	public void log(String testname, String strOperation, String message) {
+	public void log(String testname, String strOperation, String message) 
+	{
+		
 		try {
 			switch (strOperation.toUpperCase()) {
 			case "CREATE":
-				
-				
-				htmlfile = new File(System.getProperty("user.dir") + "//ExtReports//TestReport_" + date_time + ".html");
 				htmlfile.createNewFile();
-				htmlReporter = new ExtentHtmlReporter(htmlfile.getAbsolutePath());
-				report = new ExtentReports();
 				report.attachReporter(htmlReporter);
+				
 				System.out.println("Test Report HTML File Created");
 				break;
 			case "START":
@@ -100,6 +103,9 @@ private static Report singleton=new Report();
 				if (reqReport.equalsIgnoreCase("Report Initiated")) {
 					report.flush();
 					System.out.println("Test Report saved successfully");
+					report.setSystemInfo("Host Name", ((DeviceWebDriver) getWebDriver()).getCapabilities().getPlatform().name());
+					report.setSystemInfo("Browser", ((DeviceWebDriver) getWebDriver()).getCapabilities().getBrowserName());
+					report.setSystemInfo("Browser Version", ((DeviceWebDriver) getWebDriver()).getCapabilities().getVersion());
 				}
 				break;
 

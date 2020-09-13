@@ -49,7 +49,7 @@ public class LoginImpl extends CustomAbstractPage implements Login
         	strURL=dataLogin.getData("SIT_URL");
         	
         }
-
+        
 		getWebDriver().navigate().to(strURL);
 	    getWebDriver().manage().window().maximize();
 	    

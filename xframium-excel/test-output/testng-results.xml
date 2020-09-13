@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="135914" started-at="2020-09-12T14:08:02Z" finished-at="2020-09-12T14:10:17Z">
+  <suite name="Default suite" duration-ms="72157" started-at="2020-09-13T05:50:38Z" finished-at="2020-09-13T05:51:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="135914" started-at="2020-09-12T14:08:02Z" finished-at="2020-09-12T14:10:17Z">
+    <test name="Default test" duration-ms="72157" started-at="2020-09-13T05:50:38Z" finished-at="2020-09-13T05:51:50Z">
       <class name="uiAutomation.TestDriverClasses">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="setupSuite" is-config="true" duration-ms="1563" started-at="2020-09-12T19:38:00Z" finished-at="2020-09-12T19:38:02Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="setupSuite" is-config="true" duration-ms="1353" started-at="2020-09-13T11:20:36Z" finished-at="2020-09-13T11:20:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="beforeMethod" is-config="true" duration-ms="2860" started-at="2020-09-12T19:38:02Z" finished-at="2020-09-12T19:38:04Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="beforeMethod" is-config="true" duration-ms="2414" started-at="2020-09-13T11:20:38Z" finished-at="2020-09-13T11:20:40Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="FirstScript(org.xframium.device.ng.AbstractSeleniumTest$TestName, org.xframium.spi.Device)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="FirstScript" duration-ms="35838" started-at="2020-09-12T19:38:04Z" data-provider="DeviceManager" finished-at="2020-09-12T19:38:40Z">
+        <test-method status="FAIL" signature="FirstScript(org.xframium.device.ng.AbstractSeleniumTest$TestName, org.xframium.spi.Device)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="FirstScript" duration-ms="33855" started-at="2020-09-13T11:20:40Z" data-provider="DeviceManager" finished-at="2020-09-13T11:21:14Z">
           <params>
             <param index="0">
               <value>
@@ -73,14 +73,14 @@ Command duration or timeout: 1.08 seconds
 Build info: version: '2.50.0', revision: '1070ace', time: '2016-01-27 18:43:24'
 System info: host: 'Manjuus-Mac.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50161}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.com.google.Chrome.E7yLEI}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: a13bfd50847364226307aef87c86e759
-Command duration or timeout: 1.92 seconds
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51606}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.com.google.Chrome.qNRKOU}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50f7319d5b6207cf2cddc9d9605d2d37
+Command duration or timeout: 1.91 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'Manjuus-Mac.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50161}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.com.google.Chrome.E7yLEI}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=ac91c03d-14c2-43ad-b268-a77c0d1a6f6c, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: ac91c03d-14c2-43ad-b268-a77c0d1a6f6c
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51606}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.com.google.Chrome.qNRKOU}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=955cb9eb-e84d-427f-b3ca-5d88412a3570, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 955cb9eb-e84d-427f-b3ca-5d88412a3570
 	at org.xframium.page.element.AbstractElement.click(AbstractElement.java:647)
 	at org.xframium.page.element.AbstractElement.click(AbstractElement.java:613)
 	at functions.GenericFunctions._click(GenericFunctions.java:335)
@@ -92,7 +92,7 @@ Session ID: ac91c03d-14c2-43ad-b268-a77c0d1a6f6c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstScript -->
-        <test-method status="PASS" signature="AfterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="AfterMethod" is-config="true" duration-ms="85" started-at="2020-09-12T19:38:40Z" finished-at="2020-09-12T19:38:40Z">
+        <test-method status="PASS" signature="AfterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="AfterMethod" is-config="true" duration-ms="83" started-at="2020-09-13T11:21:14Z" finished-at="2020-09-13T11:21:14Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +108,7 @@ Session ID: ac91c03d-14c2-43ad-b268-a77c0d1a6f6c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="afterMethod" is-config="true" duration-ms="2964" started-at="2020-09-12T19:38:40Z" finished-at="2020-09-12T19:38:43Z">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="afterMethod" is-config="true" duration-ms="2399" started-at="2020-09-13T11:21:14Z" finished-at="2020-09-13T11:21:16Z">
           <params>
             <param index="0">
               <value>
@@ -129,7 +129,7 @@ Session ID: ac91c03d-14c2-43ad-b268-a77c0d1a6f6c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="beforeMethod" is-config="true" duration-ms="2042" started-at="2020-09-12T19:38:43Z" finished-at="2020-09-12T19:38:45Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="beforeMethod" is-config="true" duration-ms="1579" started-at="2020-09-13T11:21:16Z" finished-at="2020-09-13T11:21:18Z">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@ Session ID: ac91c03d-14c2-43ad-b268-a77c0d1a6f6c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="SecondScript(org.xframium.device.ng.AbstractSeleniumTest$TestName, org.xframium.spi.Device)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="SecondScript" duration-ms="31035" started-at="2020-09-12T19:38:45Z" data-provider="DeviceManager" finished-at="2020-09-12T19:39:16Z">
+        <test-method status="FAIL" signature="SecondScript(org.xframium.device.ng.AbstractSeleniumTest$TestName, org.xframium.spi.Device)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="SecondScript" duration-ms="30060" started-at="2020-09-13T11:21:18Z" data-provider="DeviceManager" finished-at="2020-09-13T11:21:48Z">
           <params>
             <param index="0">
               <value>
@@ -187,18 +187,18 @@ Session ID: ac91c03d-14c2-43ad-b268-a77c0d1a6f6c
 Caused by: element click intercepted: Element <span jsname="V67aGc" class="VfPpkd-vQzf8d">...</span> is not clickable at point (499, 425). Other element would receive the click: <div class="VfPpkd-RLmnJb"></div>
   (Session info: chrome=85.0.4183.102)
   (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Mac OS X 10.15.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.07 seconds
+Command duration or timeout: 1.11 seconds
 Build info: version: '2.50.0', revision: '1070ace', time: '2016-01-27 18:43:24'
 System info: host: 'Manjuus-Mac.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50260}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.com.google.Chrome.hwy55C}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 898d376da27efaf2e5e79a1fa28b1452
-Command duration or timeout: 1.59 seconds
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51706}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.com.google.Chrome.UroCgL}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 35a8f0c1cf692d5a0b99e5e41c8d8f28
+Command duration or timeout: 1.88 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'Manjuus-Mac.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50260}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.com.google.Chrome.hwy55C}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=5c291424-4058-484e-87f1-66145ba63b5b, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 5c291424-4058-484e-87f1-66145ba63b5b
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51706}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.com.google.Chrome.UroCgL}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=83e9cd58-f760-4c27-9b11-cf15f8be369b, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 83e9cd58-f760-4c27-9b11-cf15f8be369b
 	at org.xframium.page.element.AbstractElement.click(AbstractElement.java:647)
 	at org.xframium.page.element.AbstractElement.click(AbstractElement.java:613)
 	at functions.GenericFunctions._click(GenericFunctions.java:335)
@@ -210,7 +210,7 @@ Session ID: 5c291424-4058-484e-87f1-66145ba63b5b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondScript -->
-        <test-method status="PASS" signature="AfterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="AfterMethod" is-config="true" duration-ms="13" started-at="2020-09-12T19:39:16Z" finished-at="2020-09-12T19:39:16Z">
+        <test-method status="PASS" signature="AfterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="AfterMethod" is-config="true" duration-ms="20" started-at="2020-09-13T11:21:48Z" finished-at="2020-09-13T11:21:48Z">
           <params>
             <param index="0">
               <value>
@@ -226,7 +226,7 @@ Session ID: 5c291424-4058-484e-87f1-66145ba63b5b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="afterMethod" is-config="true" duration-ms="61034" started-at="2020-09-12T19:39:16Z" finished-at="2020-09-12T19:40:17Z">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="afterMethod" is-config="true" duration-ms="1707" started-at="2020-09-13T11:21:48Z" finished-at="2020-09-13T11:21:50Z">
           <params>
             <param index="0">
               <value>
@@ -247,7 +247,7 @@ Session ID: 5c291424-4058-484e-87f1-66145ba63b5b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="cleanupSuite()[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="cleanupSuite" is-config="true" duration-ms="298" started-at="2020-09-12T19:40:17Z" finished-at="2020-09-12T19:40:18Z">
+        <test-method status="PASS" signature="cleanupSuite()[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="cleanupSuite" is-config="true" duration-ms="355" started-at="2020-09-13T11:21:50Z" finished-at="2020-09-13T11:21:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanupSuite -->
