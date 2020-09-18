@@ -23,8 +23,10 @@ public class LoginImpl extends CustomAbstractPage implements Login
 {
 
 	@Override
-	public void Login (String tcID, SoftAssert softAssert,String DeviceName, String user) throws Exception
+	public void Login (String tcID, SoftAssert softAssert,String DeviceName) throws Exception
 	{
+		try 
+		{
 		func._waitForPageToLoad(getWebDriver(), 200L);
 		Thread.sleep(2000);
 		PageData dataLogin = PageDataManager.instance().getPageData("Login",tcID);
@@ -68,36 +70,18 @@ public class LoginImpl extends CustomAbstractPage implements Login
         {
 	    	func._waitForPageToLoad(getWebDriver(), 50L);	
 	    	func._click(getElement(btn_Login));
-	    	
-	    	Thread.sleep(1000);
-	    	func._waitForPageToLoad(getWebDriver(), 50L);	
-	    	String parentWindow = getWebDriver().getWindowHandle();
-	    	func._click(getElement(btn_gmail));
-	    	//Set<String> childWindow = getWebDriver().getWindowHandles();
-	    	
-	    	
-	    			for(String winHandle : getWebDriver().getWindowHandles())
-	    		    {
-	    				getWebDriver().switchTo().window(winHandle);
-	    		        
-	    		    }
-	    	func._waitForPageToLoad(getWebDriver(), 100L);	
-	    	_setValue(getElement(txt_username), "manjuunothda@gmail.com");
-	    	Thread.sleep(5000);
-	    	func._click(getElement(btn_Next));
-	    	Thread.sleep(5000);
-	    	_setValue(getElement(txt_password), "crazylife8.");
-	    	func._click(getElement(btn_Next));
-	     	Thread.sleep(5000);
-	    	getWebDriver().switchTo().window(parentWindow);
-	    	
+	    	_setValue(getElement(txt_email), dataLogin.getData("QAUserName"));
+	    	func._click(getElement(btn_Continue));
+	      	_setValue(getElement(txt_password), dataLogin.getData("QAPassword"));
+	      	func._click(getElement(btn_LoginA));
+	      	
         }
 	    
 	    	func._takeBrowserScreenShot(getWebDriver(), "PRINT", getWebDriver().getCurrentUrl(), "");
 	    	Thread.sleep(2000);
+	   
 	    
-	    
-	    if(getElement(label_User).addToken("tkn_UserName", user).isVisible())
+	    if(getElement(label_User).addToken("tkn_UserName", dataLogin.getData("My Account")).isVisible())
 	    {	
 	    	Report.instance().log(tcID, "PASS", "Logged into Application Sucessfully");
 	    	
@@ -108,6 +92,11 @@ public class LoginImpl extends CustomAbstractPage implements Login
 	    	Report.instance().log(tcID, "FAIL", "Login Failed");
 	    	//CustomReporting.logReport("Login Failed ", StepStatus.FAILURE);	
 	    }
+		}
+		catch(Exception e)
+		{
+			Report.instance().log(tcID, "FINISH", "");
+		}
 	}
 	@Override
 	public void startPrintScreenShots(String tcID, SoftAssert softAssert, String DeviceName) throws Exception {
@@ -176,7 +165,7 @@ public class LoginImpl extends CustomAbstractPage implements Login
 	{
 		
 		func._waitForPageToLoad(getWebDriver(), 200L);
-		func._click(getElement(Label_Logout));
+		//func._click(getElement(Label_Logout));
 		func._actionClick(getElement(btn_Logout));
 		func._waitForPageToLoad(getWebDriver(), 100L);
 		 if(func._isVisible(getElement(btn_Login)))

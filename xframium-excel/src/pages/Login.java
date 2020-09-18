@@ -9,15 +9,15 @@ public interface Login extends Page
 	@ElementDefinition
 	public String btn_Login="btn_Login" ;
 	@ElementDefinition
-	public String btn_gmail="btn_gmail" ;
+	public String txt_email="txt_email" ;
 	@ElementDefinition
-	public String btn_Next="btn_Next" ;
+	public String btn_Continue="btn_Continue" ;
 	@ElementDefinition
 	public String txt_username="txt_username" ;
 	@ElementDefinition
 	public String txt_password="txt_password" ;
 	@ElementDefinition
-	public String Label_Logout="Label_Logout" ;
+	public String btn_LoginA="btn_LoginA" ;
 	@ElementDefinition
 	public String btn_Logout="btn_Logout" ;
 	@ElementDefinition
@@ -30,7 +30,7 @@ public interface Login extends Page
 	
 	@TimeMethod
 	@ScreenShot
-	public void Login(String tcID, SoftAssert softAssert, String DeviceName, String user) throws Exception;
+	public void Login(String tcID, SoftAssert softAssert, String DeviceName) throws Exception;
 	public void startPrintScreenShots(String tcID, SoftAssert softAssert, String DeviceName) throws Exception ;
 
 	public void LogOut(String tcID, SoftAssert softAssert, String DeviceName) throws Exception ;

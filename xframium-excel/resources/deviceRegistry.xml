@@ -5,10 +5,6 @@
 	xmlns="http://www.xframium.org/deviceRegistry">
 
 	<device name="Chrome" os="OS X" browserName="Chrome" model="Chrome" browserVersion="54.0" availableDevices="1" active="true"/>
-	 <capability name="arguments" class="STRING">--headless</capability>
-	<capability class="CLASS" name="ChromeCapabilitiesBridge">utility.ChromeCapabilitiesBridge</capability>
-	<device name="Firefox" os="MAC" browserName="firefox" model="Firefox" manufacturer="Mozilla" availableDevices="1"
-	
-		active="false" />
+	<device name="Firefox" os="MAC" browserName="firefox" model="Firefox" manufacturer="Mozilla" availableDevices="1" active="false" />
 
 </deviceRegistry>

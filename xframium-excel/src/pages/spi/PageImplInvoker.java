@@ -15,10 +15,10 @@ public class PageImplInvoker extends AbstractSeleniumTest{
 	
 	//Login Page
 	
-	public void Login(String tcID,String DeviceName, String user) throws Exception
+	public void Login(String tcID,String DeviceName) throws Exception
  	{
  		Login objLogin = (Login) PageManager.instance().createPage( Login.class, getWebDriver());
- 		objLogin.Login(tcID, softAssert,DeviceName, user);
+ 		objLogin.Login(tcID, softAssert,DeviceName);
  	}
 	
 	public void LogOut(String tcID,String DeviceName) throws Exception

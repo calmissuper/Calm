@@ -1,0 +1,6 @@
+null,Chrome,OS X,null,,,Timeout during page load,09-13_12-33-00,52244,FAILURE,
+null,Chrome,OS X,null,Login,btn_Login,click,09-13_12-33-01,376,SUCCESS,
+null,Chrome,OS X,null,,,Timeout during page load,09-13_12-33-54,52106,FAILURE,
+null,Chrome,OS X,null,Login,btn_gmail,click,09-13_12-33-54,122,SUCCESS,
+null,Chrome,OS X,null,,,Timeout during page load,09-13_12-35-36,102443,FAILURE,
+null,Chrome,OS X,null,Login,txt_username,setValue,09-13_12-36-43,67014,FAILURE,

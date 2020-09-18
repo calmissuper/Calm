@@ -1,17 +1,18 @@
 package utility;
 
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.xframium.device.DeviceManager;
+import javax.imageio.ImageIO;
+
 import org.xframium.device.factory.DeviceWebDriver;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.MediaEntityModelProvider;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
@@ -25,7 +26,9 @@ private static Report singleton=new Report();
 	}
 	
 	private Report(){}
-
+	
+	
+	
 	public static ExtentReports report = new ExtentReports();
 	public static ExtentTest logger;
 	private static String reqReport = "";
@@ -34,9 +37,11 @@ private static Report singleton=new Report();
 	public static String date_time = dateformat.format(nowdate);
 	public static File htmlfile = new File(System.getProperty("user.dir") + "//ExtReports//TestReport_" + date_time + ".html");
 	public static ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(htmlfile.getAbsolutePath());
-
+	
 	public void log(String testname, String strOperation, String message) 
 	{
+		System.out.println(System.getProperty("user.dir") + "//ExtReports//TestReport_" + date_time);
+		
 		
 		try {
 			switch (strOperation.toUpperCase()) {
@@ -63,7 +68,7 @@ private static Report singleton=new Report();
 				if (reqReport.equalsIgnoreCase("Report Initiated")) 
 				{	
 					logger.log(Status.FAIL,message);
-
+					
 					// logger.fail(message).addScreenCaptureFromPath("D:\\WS\\Check\\Sample.PNG",
 					// "Google");
 					// logger.log(Status.FAIL,

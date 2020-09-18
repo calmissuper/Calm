@@ -1,0 +1,72 @@
+Sep 14, 2020 4:48:24 PM org.xframium.device.ng.AbstractSeleniumTest beforeMethod
+INFO: Device Acquisition --> 11: Attempting to acquire device for FirstScript
+Sep 14, 2020 4:48:24 PM org.xframium.device.ng.AbstractSeleniumTest beforeMethod
+INFO: Device Acquisition --> 11: Attempting to acquire device for FirstScript
+Sep 14, 2020 4:48:24 PM org.xframium.device.factory.DriverManager getDriverFactory
+INFO: Creating Driver Factory as org.xframium.device.factory.spi.WEBDriverFactory
+Sep 14, 2020 4:48:24 PM org.xframium.device.factory.DriverManager getDriverFactory
+INFO: Creating Driver Factory as org.xframium.device.factory.spi.WEBDriverFactory
+Sep 14, 2020 4:48:26 PM org.xframium.device.factory.DeviceWebDriver setExecutionId
+INFO: Execution ID recorded as [8165ff47-ff93-47e5-a4bc-fff8fc43d4c9]
+Sep 14, 2020 4:48:26 PM org.xframium.device.factory.DeviceWebDriver setExecutionId
+INFO: Execution ID recorded as [8165ff47-ff93-47e5-a4bc-fff8fc43d4c9]
+Sep 14, 2020 4:48:27 PM org.xframium.device.ng.AbstractSeleniumTest beforeMethod
+INFO: Device Acquisition --> 11: Device acquired for FirstScript
+Sep 14, 2020 4:48:27 PM org.xframium.device.ng.AbstractSeleniumTest beforeMethod
+INFO: Device Acquisition --> 11: Device acquired for FirstScript
+Sep 14, 2020 4:48:27 PM functions.GenericFunctions _takeBrowserScreenShot
+INFO: Taking screenshot initiated
+Sep 14, 2020 4:48:27 PM functions.GenericFunctions _takeBrowserScreenShot
+INFO: Taking screenshot initiated
+Sep 14, 2020 4:48:27 PM org.xframium.page.factory.DefaultPageFactory _createPage
+INFO: Attempting to create PROXY interface by interface pages.Login
+Sep 14, 2020 4:48:27 PM org.xframium.page.factory.DefaultPageFactory _createPage
+INFO: Attempting to create PROXY interface by interface pages.Login
+Sep 14, 2020 4:48:27 PM org.xframium.page.factory.LocalPageFactory _createPage
+INFO: Creating page implementation as pages.spi.LoginImpl
+Sep 14, 2020 4:48:27 PM org.xframium.page.factory.LocalPageFactory _createPage
+INFO: Creating page implementation as pages.spi.LoginImpl
+Sep 14, 2020 4:48:41 PM org.xframium.device.factory.DeviceWebDriver _getContext
+WARNING: Context Switches are not supported - Build info: version: '2.50.0', revision: '1070ace', time: '2016-01-27 18:43:24'
+System info: host: 'Manjuus-Mac.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Manjuus-Mac.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50692}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.com.google.Chrome.2sOqbs}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=8165ff47-ff93-47e5-a4bc-fff8fc43d4c9, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 8165ff47-ff93-47e5-a4bc-fff8fc43d4c9
+Sep 14, 2020 4:48:41 PM org.xframium.device.factory.DeviceWebDriver _getContext
+WARNING: Context Switches are not supported - Build info: version: '2.50.0', revision: '1070ace', time: '2016-01-27 18:43:24'
+System info: host: 'Manjuus-Mac.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Manjuus-Mac.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50692}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=/var/folders/qz/47s677px17q2y7vp_bmr0l0w0000gn/T/.com.google.Chrome.2sOqbs}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=8165ff47-ff93-47e5-a4bc-fff8fc43d4c9, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 8165ff47-ff93-47e5-a4bc-fff8fc43d4c9
+Sep 14, 2020 4:48:41 PM org.xframium.page.element.SeleniumElement getElement
+INFO: Chrome_FirstScript[DS001]-->null Chrome [Chrome] (11): Locating element by [XPATH] using [//a[@qa ='loginLink' and @ng-show='vm.newLoginFlow']]
+Sep 14, 2020 4:48:41 PM org.xframium.page.element.SeleniumElement getElement
+INFO: Chrome_FirstScript[DS001]-->null Chrome [Chrome] (11): Locating element by [XPATH] using [//a[@qa ='loginLink' and @ng-show='vm.newLoginFlow']]
+Sep 14, 2020 4:48:41 PM org.xframium.page.element.SeleniumElement getElement
+INFO: Chrome_FirstScript[DS001]-->null Chrome [Chrome] (11): Element //a[@qa ='loginLink' and @ng-show='vm.newLoginFlow'] Located
+Sep 14, 2020 4:48:41 PM org.xframium.page.element.SeleniumElement getElement
+INFO: Chrome_FirstScript[DS001]-->null Chrome [Chrome] (11): Element //a[@qa ='loginLink' and @ng-show='vm.newLoginFlow'] Located
+Sep 14, 2020 4:48:44 PM org.xframium.page.element.SeleniumElement getElement
+INFO: Chrome_FirstScript[DS001]-->null Chrome [Chrome] (11): Locating element by [XPATH] using [//div[@class='login-main-content']//a[@class='gplusBtn smGlobalBtn']]
+Sep 14, 2020 4:48:44 PM org.xframium.page.element.SeleniumElement getElement
+INFO: Chrome_FirstScript[DS001]-->null Chrome [Chrome] (11): Locating element by [XPATH] using [//div[@class='login-main-content']//a[@class='gplusBtn smGlobalBtn']]
+Sep 14, 2020 4:48:44 PM org.xframium.page.element.SeleniumElement getElement
+INFO: Chrome_FirstScript[DS001]-->null Chrome [Chrome] (11): Element //div[@class='login-main-content']//a[@class='gplusBtn smGlobalBtn'] Located
+Sep 14, 2020 4:48:44 PM org.xframium.page.element.SeleniumElement getElement
+INFO: Chrome_FirstScript[DS001]-->null Chrome [Chrome] (11): Element //div[@class='login-main-content']//a[@class='gplusBtn smGlobalBtn'] Located
+Sep 14, 2020 4:48:47 PM org.xframium.page.element.SeleniumElement getElement
+INFO: Chrome_FirstScript[DS001]-->null Chrome [Chrome] (11): Locating element by [XPATH] using [//input[@type='email']]
+Sep 14, 2020 4:48:47 PM org.xframium.page.element.SeleniumElement getElement
+INFO: Chrome_FirstScript[DS001]-->null Chrome [Chrome] (11): Locating element by [XPATH] using [//input[@type='email']]
+Sep 14, 2020 4:49:16 PM utility.CustomReporting logConsole
+INFO: >>> Login txt_username setValue  Execution time: 29151
+Sep 14, 2020 4:49:16 PM utility.CustomReporting logConsole
+INFO: >>> Login txt_username setValue  Execution time: 29151

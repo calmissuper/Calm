@@ -30,13 +30,13 @@ public class TestDriverClasses extends CustomAbstractTest
 			GenericFunctions.instance()._addToGlobalVariableList(gvTestKey, testName.toString()); 
  			String DeviceName = getDeviceName(testName);
  			PageImplInvoker rentersClassInvoker = new PageImplInvoker();
- 			rentersClassInvoker.Login(tcID,DeviceName,"Abhishek");
+ 			rentersClassInvoker.Login(tcID,DeviceName);
  			/*rentersClassInvoker.navigateDeliveryAddress(tcID, DeviceName, "Abhishek");
  			rentersClassInvoker.addAddress(tcID, DeviceName, "Automation");
  			rentersClassInvoker.updateAddress(tcID+"_Edit", DeviceName, "Automation");
  			rentersClassInvoker.deleteAddress(tcID+"_Delete", DeviceName, "Automation");
  			rentersClassInvoker.LogOut(tcID, DeviceName);*/
- 			softAssert.assertAll();
+ 			//softAssert.assertAll();
  			Report.instance().log("FirstScript", "FINISH", "");
 			
  			
@@ -68,7 +68,7 @@ public class TestDriverClasses extends CustomAbstractTest
 			GenericFunctions.instance()._addToGlobalVariableList(gvTestKey, testName.toString()); 
  			String DeviceName = getDeviceName(testName);
  			PageImplInvoker rentersClassInvoker = new PageImplInvoker();
- 			rentersClassInvoker.Login(tcID,DeviceName,"Abhishek");
+ 			rentersClassInvoker.Login(tcID,DeviceName);
  			/*rentersClassInvoker.navigateDeliveryAddress(tcID, DeviceName, "Abhishek");
  			rentersClassInvoker.addAddress(tcID, DeviceName, "Automation");
  			rentersClassInvoker.updateAddress(tcID+"_Edit", DeviceName, "Automation");

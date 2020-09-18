@@ -1,0 +1,5 @@
+null,Chrome,OS X,null,Login,btn_Login,click,09-18_18-59-49,1442,SUCCESS,
+null,Chrome,OS X,null,Login,txt_email,setValue,09-18_18-59-50,200,SUCCESS,
+null,Chrome,OS X,null,Login,btn_Continue,click,09-18_18-59-51,1535,SUCCESS,
+null,Chrome,OS X,null,Login,txt_password,setValue,09-18_18-59-51,171,SUCCESS,
+null,Chrome,OS X,null,Login,btn_LoginA,click,09-18_18-59-52,347,SUCCESS,

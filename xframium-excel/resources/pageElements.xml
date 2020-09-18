@@ -4,14 +4,15 @@
 	xsi:schemaLocation="http://www.xframium.org/pageRegistry http://www.xframium.org/xsd/pageManagement/pageRegistry.xsd">
 	<site name="BigB">
 		<page name="Login">
-			<element name="btn_Login" descriptor="XPATH" value="//a[@qa ='loginLink' and @ng-show='vm.newLoginFlow']" />
-			<element name="btn_gmail" descriptor="XPATH" value="//div[@class='login-main-content']//a[@class='gplusBtn smGlobalBtn']"/>
-			<element name="txt_username" descriptor="XPATH" value="//input[@type='email']" />
+			<element name="btn_Login" descriptor="XPATH" value="//span[text()='Hello, Sign in']" />
+			<element name="txt_email" descriptor="XPATH" value="//input[@type='email']"/>
+			<element name="btn_Continue" descriptor="XPATH" value="//input[@id='continue']" />
 			<element name="txt_password" descriptor="XPATH" value="//input[@type='password']" />
-			<element name="btn_Next" descriptor="XPATH" value="//span[contains(text(),'Next')]" />
+			<element name="btn_LoginA" descriptor="XPATH" value="//input[@type='submit']" />
+			<element name="label_User" descriptor="XPATH" value="//span[text()='{tkn_UserName}']"/>
 			<element name="Label_Logout" descriptor="XPATH" value="//span[text()='Abhishek']"/>
 			<element name="btn_Logout" descriptor="XPATH" value="//a[text()='Logout']"/>
-			<element name="label_User" descriptor="XPATH" value="//span[text()='{tkn_UserName}']"/>
+			
 		</page>
 		
 		<page name="Search">
