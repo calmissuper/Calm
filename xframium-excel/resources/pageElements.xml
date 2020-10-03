@@ -10,14 +10,17 @@
 			<element name="txt_password" descriptor="XPATH" value="//input[@type='password']" />
 			<element name="btn_LoginA" descriptor="XPATH" value="//input[@type='submit']" />
 			<element name="label_User" descriptor="XPATH" value="//span[text()='{tkn_UserName}']"/>
-			<element name="Label_Logout" descriptor="XPATH" value="//span[text()='Abhishek']"/>
-			<element name="btn_Logout" descriptor="XPATH" value="//a[text()='Logout']"/>
+			<element name="label_Logout" descriptor="XPATH" value="//span[text()='{tkn_UserName}']"/>
+			<element name="btn_Logout" descriptor="XPATH" value="//span[text()='Sign Out']"/>
 			
 		</page>
 		
 		<page name="Search">
-			<element name="txt_searchBox" descriptor="XPATH" value="//input[@qa='searchBar']" />
-			<element name="btn_searchBox" descriptor="XPATH" value="//button[@qa='searchBtn']" />
+			<element name="txt_searchBox" descriptor="XPATH" value="//input[@id='twotabsearchtextbox']" />
+			<element name="btn_searchBox" descriptor="XPATH" value="//*[@class='nav-search-submit nav-sprite']/span/input[@type='submit']" />
+			<element name="label_sugesstions" descriptor="XPATH" value="//*[@id='suggestions']/div/span" />
+			
+			
 		</page>
 		
 		<page name="Address">

@@ -2092,4 +2092,12 @@ public String RenameFile (String directory, String fileName)
  		
  		return element.toString();
  		}
+     public WebElement convertToWebElement(Element element)
+     {
+    
+ 		WebElement ele = (WebElement)element.getNative();
+ 		return ele;
+     }
+     
+     
 }

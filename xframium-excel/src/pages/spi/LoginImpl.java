@@ -6,13 +6,17 @@ import java.io.File;
 import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.sikuli.script.ImagePath;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
 import org.testng.asserts.SoftAssert;
+import org.xframium.page.ElementDescriptor;
 import org.xframium.page.StepStatus;
 import org.xframium.page.data.PageData;
 import org.xframium.page.data.PageDataManager;
+import org.xframium.page.element.Element;
 
 import pages.Login;
 import utility.CustomAbstractPage;
@@ -30,11 +34,6 @@ public class LoginImpl extends CustomAbstractPage implements Login
 		func._waitForPageToLoad(getWebDriver(), 200L);
 		Thread.sleep(2000);
 		PageData dataLogin = PageDataManager.instance().getPageData("Login",tcID);
-		/*String strScreenShots=dataLogin.getData("PrintScreens");
-        if(strScreenShots.equalsIgnoreCase("Yes"))
-        {
-          func._takeScreenShot(getWebDriver(), "START", "", "");
-        }*/
         String strURL="";
         if(dataLogin.getData("Environment").toUpperCase().equals("QA"))
         {
@@ -56,8 +55,6 @@ public class LoginImpl extends CustomAbstractPage implements Login
 	    getWebDriver().manage().window().maximize();
 	    
 	    Report.instance().log(tcID, "INFO", "Open Application URL : "+strURL);
-	    //CustomReporting.logReport("Open Application URL : "+  strURL);
-	   
 	    Thread.sleep(2000);
 	    if(dataLogin.getData("Environment").toUpperCase().equals("STAGE") || dataLogin.getData("Environment").toUpperCase().equals("SIT"))
         {
@@ -76,21 +73,15 @@ public class LoginImpl extends CustomAbstractPage implements Login
 	      	func._click(getElement(btn_LoginA));
 	      	
         }
-	    
 	    	func._takeBrowserScreenShot(getWebDriver(), "PRINT", getWebDriver().getCurrentUrl(), "");
-	    	Thread.sleep(2000);
-	   
-	    
+	    	Thread.sleep(2000); 
 	    if(getElement(label_User).addToken("tkn_UserName", dataLogin.getData("My Account")).isVisible())
 	    {	
 	    	Report.instance().log(tcID, "PASS", "Logged into Application Sucessfully");
-	    	
-	    	//CustomReporting.logReport("Logged into Application Sucessfully as :"+ user, StepStatus.SUCCESS);
 	    }
 	    else
 	    {	
 	    	Report.instance().log(tcID, "FAIL", "Login Failed");
-	    	//CustomReporting.logReport("Login Failed ", StepStatus.FAILURE);	
 	    }
 		}
 		catch(Exception e)
@@ -98,16 +89,34 @@ public class LoginImpl extends CustomAbstractPage implements Login
 			Report.instance().log(tcID, "FINISH", "");
 		}
 	}
-	@Override
-	public void startPrintScreenShots(String tcID, SoftAssert softAssert, String DeviceName) throws Exception {
-		PageData dataLogin = PageDataManager.instance().getPageData("Login",tcID);
-		String strScreenShots=dataLogin.getData("PrintScreens");
 
-		if (strScreenShots.equalsIgnoreCase("Yes")) {
-			func._takeBrowserScreenShot(getWebDriver(), "START", "", "");
+	
+	@Override
+	public void LogOut(String tcID, SoftAssert softAssert, String DeviceName) throws Exception 
+	{
+		PageData dataLogin = PageDataManager.instance().getPageData("Login",tcID);
+		
+		func._click(getElement(label_Logout).addToken("tkn_UserName", dataLogin.getData("My Account")));
+		Element element = getElement(label_Logout).addToken("tkn_UserName", dataLogin.getData("My Account"));
+		Actions a = new Actions(getWebDriver());
+		WebElement ele = (WebElement)element.getNative();
+		a.moveToElement(ele).perform();		
+		Element element1 = getElement(btn_Logout);
+		WebElement ele1 = (WebElement)element1.getNative();
+		a.moveToElement(ele1).click().build().perform();
+		func._waitForPageToLoad(getWebDriver(), 200L);
+		
+		if(!_isVisible(getElement(label_Logout).addToken("tkn_UserName", dataLogin.getData("My Account"))))
+		{
+			Report.instance().log(tcID, "PASS", "Logged out of Application Sucessfully");
 		}
-		focusBrowser();
+		else
+		{
+			Report.instance().log(tcID, "Fail", "Logout Failed");
+		}
+			 	
 	}
+	
 	public void focusBrowser() throws Exception {
 
         try {
@@ -160,27 +169,15 @@ public class LoginImpl extends CustomAbstractPage implements Login
 
         }
   }
-	@Override
-	public void LogOut(String tcID, SoftAssert softAssert, String DeviceName) throws Exception 
-	{
-		
-		func._waitForPageToLoad(getWebDriver(), 200L);
-		//func._click(getElement(Label_Logout));
-		func._actionClick(getElement(btn_Logout));
-		func._waitForPageToLoad(getWebDriver(), 100L);
-		 if(func._isVisible(getElement(btn_Login)))
-		    {
-			 	Report.instance().log(tcID, "PASS", "Logged out of Application Sucessfully");
-		    	
-		    	//CustomReporting.logReport("Logged Out of Application Sucessfully", StepStatus.SUCCESS);
-		    }	    else
-		    {
-		    	Report.instance().log(tcID, "FAIL", "Logout Failed");
-		    	
-		    	//CustomReporting.logReport("LogOut Failed ", StepStatus.FAILURE);	
-		    }
-		
-		
-	}
 	
+	@Override
+	public void startPrintScreenShots(String tcID, SoftAssert softAssert, String DeviceName) throws Exception {
+		PageData dataLogin = PageDataManager.instance().getPageData("Login",tcID);
+		String strScreenShots=dataLogin.getData("PrintScreens");
+
+		if (strScreenShots.equalsIgnoreCase("Yes")) {
+			func._takeBrowserScreenShot(getWebDriver(), "START", "", "");
+		}
+		focusBrowser();
+	}
 }

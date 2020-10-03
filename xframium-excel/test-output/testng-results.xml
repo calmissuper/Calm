@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="73215" started-at="2020-09-18T13:29:32Z" finished-at="2020-09-18T13:30:45Z">
+  <suite name="Default suite" duration-ms="49594" started-at="2020-10-03T14:58:59Z" finished-at="2020-10-03T14:59:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="73215" started-at="2020-09-18T13:29:32Z" finished-at="2020-09-18T13:30:45Z">
+    <test name="Default test" duration-ms="49594" started-at="2020-10-03T14:58:59Z" finished-at="2020-10-03T14:59:49Z">
       <class name="uiAutomation.TestDriverClasses">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="setupSuite" is-config="true" duration-ms="1520" started-at="2020-09-18T18:59:31Z" finished-at="2020-09-18T18:59:32Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="setupSuite" is-config="true" duration-ms="1428" started-at="2020-10-03T20:28:58Z" finished-at="2020-10-03T20:28:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="beforeMethod" is-config="true" duration-ms="2547" started-at="2020-09-18T18:59:32Z" finished-at="2020-09-18T18:59:35Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="beforeMethod" is-config="true" duration-ms="3261" started-at="2020-10-03T20:28:59Z" finished-at="2020-10-03T20:29:03Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="FirstScript(org.xframium.device.ng.AbstractSeleniumTest$TestName, org.xframium.spi.Device)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="FirstScript" duration-ms="69878" started-at="2020-09-18T18:59:35Z" data-provider="DeviceManager" finished-at="2020-09-18T19:00:45Z">
+        <test-method status="PASS" signature="FirstScript(org.xframium.device.ng.AbstractSeleniumTest$TestName, org.xframium.spi.Device)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="FirstScript" duration-ms="45424" started-at="2020-10-03T20:29:03Z" data-provider="DeviceManager" finished-at="2020-10-03T20:29:48Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstScript -->
-        <test-method status="PASS" signature="AfterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="AfterMethod" is-config="true" duration-ms="46" started-at="2020-09-18T19:00:45Z" finished-at="2020-09-18T19:00:45Z">
+        <test-method status="PASS" signature="AfterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="AfterMethod" is-config="true" duration-ms="35" started-at="2020-10-03T20:29:48Z" finished-at="2020-10-03T20:29:48Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="afterMethod" is-config="true" duration-ms="714" started-at="2020-09-18T19:00:45Z" finished-at="2020-09-18T19:00:45Z">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, [Ljava.lang.Object;, org.testng.ITestResult)[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="afterMethod" is-config="true" duration-ms="845" started-at="2020-10-03T20:29:48Z" finished-at="2020-10-03T20:29:49Z">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="cleanupSuite()[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="cleanupSuite" is-config="true" duration-ms="322" started-at="2020-09-18T19:00:45Z" finished-at="2020-09-18T19:00:46Z">
+        <test-method status="PASS" signature="cleanupSuite()[pri:0, instance:uiAutomation.TestDriverClasses@3043fe0e]" name="cleanupSuite" is-config="true" duration-ms="319" started-at="2020-10-03T20:29:49Z" finished-at="2020-10-03T20:29:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanupSuite -->

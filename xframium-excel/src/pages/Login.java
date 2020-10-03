@@ -19,9 +19,11 @@ public interface Login extends Page
 	@ElementDefinition
 	public String btn_LoginA="btn_LoginA" ;
 	@ElementDefinition
-	public String btn_Logout="btn_Logout" ;
+	public String label_Logout="label_Logout" ;
 	@ElementDefinition
 	public String label_User="label_User" ;
+	@ElementDefinition
+	public String btn_Logout="btn_Logout" ;
 	
 	
 	
