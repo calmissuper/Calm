@@ -21,14 +21,17 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/classes" path="test">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="resources">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/manjunathda/Downloads/reportium-testng-1.1.2.jar"/>
 	<classpathentry kind="output" path="test-output/target/classes"/>
 </classpath>

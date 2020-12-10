@@ -2,7 +2,7 @@
 # Cloud Registry
 #
 cloudRegistry.provider=XML
-cloudRegistry.fileName=../resources/cloudRegistry.xml
+cloudRegistry.fileName=cloudRegistry.xml
 cloudRegistry.cloudUnderTest=local
 
 

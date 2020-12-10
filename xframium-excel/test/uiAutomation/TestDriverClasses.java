@@ -31,7 +31,7 @@ public class TestDriverClasses extends CustomAbstractTest
  			String DeviceName = getDeviceName(testName);
  			PageImplInvoker rentersClassInvoker = new PageImplInvoker();
  			rentersClassInvoker.Login(tcID,DeviceName);
- 			rentersClassInvoker.searchProduct(tcID, DeviceName, "Iphone 11");
+ 			
  			rentersClassInvoker.LogOut(tcID, DeviceName);
  			softAssert.assertAll();
  			Report.instance().log("FirstScript", "FINISH", "");
