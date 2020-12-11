@@ -1,0 +1,3 @@
+null,Chrome,OS X,null,Search,txt_searchBox,setValue,12-10_20-12-45,1081,SUCCESS,
+null,Chrome,OS X,null,Search,btn_searchBox,click,12-10_20-12-48,2819,SUCCESS,
+null,Chrome,OS X,null,Search,,click,12-10_20-13-19,30965,FAILURE,

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="uiAutomation.TestDriverClasses">
         <methods>
           <include name="beforeMethod"/>
-          <include name="FirstScript" invocation-numbers="0"/>
+          <include name="FirstScript"/>
           <include name="AfterMethod"/>
           <include name="cleanupSuite"/>
           <include name="afterMethod"/>

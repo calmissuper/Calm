@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="uiAutomation.TestDriverClasses"/>
+      
+      <class name="cucumberAutomation.CucumberRunner"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Oct 03 20:28:59 IST 2020</td>
+<td>Started on:</td><td>Thu Dec 10 20:13:40 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>49 seconds (49594 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21769 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,9 +76,70 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='uiAutomation.TestDriverClasses.FirstScript()'><b>FirstScript</b><br>Test class: uiAutomation.TestDriverClasses<br>Parameters: Chrome_FirstScript[DS001]-->null Chrome [Chrome], null Chrome (Chrome)</td>
-<td></td>
-<td>45</td>
-<td>uiAutomation.TestDriverClasses@3043fe0e</td></tr>
+<td><div><pre>java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.xframium.page.factory.DefaultPageFactory.invoke(DefaultPageFactory.java:157)
+	at com.sun.proxy.$Proxy24.LogOut(Unknown Source)
+	at pages.spi.PageImplInvoker.LogOut(PageImplInvoker.java:27)
+	at uiAutomation.TestDriverClasses.FirstScript(TestDriverClasses.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: null
+	at org.xframium.page.element.AbstractElement.click(AbstractElement.java:647)
+	at org.xframium.page.element.AbstractElement.click(AbstractElement.java:613)
+	at functions.GenericFunctions._click(GenericFunctions.java:335)
+	at pages.spi.LoginImpl.LogOut(LoginImpl.java:99)
+	... 23 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace203311242", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace203311242'><pre>java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.xframium.page.factory.DefaultPageFactory.invoke(DefaultPageFactory.java:157)
+	at com.sun.proxy.$Proxy24.LogOut(Unknown Source)
+	at pages.spi.PageImplInvoker.LogOut(PageImplInvoker.java:27)
+	at uiAutomation.TestDriverClasses.FirstScript(TestDriverClasses.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: null
+	at org.xframium.page.element.AbstractElement.click(AbstractElement.java:647)
+	at org.xframium.page.element.AbstractElement.click(AbstractElement.java:613)
+	at functions.GenericFunctions._click(GenericFunctions.java:335)
+	at pages.spi.LoginImpl.LogOut(LoginImpl.java:99)
+	... 23 more
+</pre></div></td>
+<td>18</td>
+<td>uiAutomation.TestDriverClasses@4f32a3ad</td></tr>
 </table><p>
 </body>
 </html>
